@@ -13,8 +13,8 @@ import com.polidea.rxandroidble2.internal.util.RxBleAdapterWrapper;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import bleshadow.javax.inject.Inject;
-import bleshadow.javax.inject.Named;
+import javax.inject.Inject;
+import javax.inject.Named;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;

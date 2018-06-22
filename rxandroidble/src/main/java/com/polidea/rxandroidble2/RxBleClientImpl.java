@@ -30,10 +30,10 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.Callable;
 
-import bleshadow.javax.inject.Inject;
-import bleshadow.javax.inject.Named;
+import javax.inject.Inject;
+import javax.inject.Named;
 
-import bleshadow.dagger.Lazy;
+import dagger.Lazy;
 import io.reactivex.Maybe;
 import io.reactivex.MaybeSource;
 import io.reactivex.Observable;

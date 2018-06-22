@@ -8,7 +8,7 @@ import android.content.IntentFilter;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposables;

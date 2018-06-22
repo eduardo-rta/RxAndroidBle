@@ -10,7 +10,7 @@ import android.os.Build;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposables;

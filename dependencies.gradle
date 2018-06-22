@@ -1,9 +1,9 @@
 ext {
-    supportVersion = '27.1.0'
+    supportVersion = '27.1.1'
     rxJavaVersion = '2.1.14'
-    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
-    targetCompatibilityVersion = JavaVersion.VERSION_1_7
-    shadowPluginVersion = '2.0.2'
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_8
+    targetCompatibilityVersion = JavaVersion.VERSION_1_8
+//    shadowPluginVersion = '2.0.4'
     daggerVersion = '2.15'
     libs = [
             /* Application dependencies */

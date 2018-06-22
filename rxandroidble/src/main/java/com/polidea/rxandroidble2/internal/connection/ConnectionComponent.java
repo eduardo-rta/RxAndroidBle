@@ -2,7 +2,7 @@ package com.polidea.rxandroidble2.internal.connection;
 
 import com.polidea.rxandroidble2.RxBleConnection;
 import com.polidea.rxandroidble2.internal.operations.ConnectOperation;
-import bleshadow.dagger.Subcomponent;
+import dagger.Subcomponent;
 import java.util.Set;
 
 @ConnectionScope

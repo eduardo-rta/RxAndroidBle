@@ -9,11 +9,11 @@ import com.polidea.rxandroidble2.internal.operations.OperationsProvider;
 import com.polidea.rxandroidble2.internal.operations.OperationsProviderImpl;
 import com.polidea.rxandroidble2.internal.serialization.ConnectionOperationQueue;
 import com.polidea.rxandroidble2.internal.serialization.ConnectionOperationQueueImpl;
-import bleshadow.dagger.Binds;
-import bleshadow.dagger.Module;
-import bleshadow.dagger.Provides;
-import bleshadow.dagger.multibindings.IntoSet;
-import bleshadow.javax.inject.Named;
+import dagger.Binds;
+import dagger.Module;
+import dagger.Provides;
+import dagger.multibindings.IntoSet;
+import javax.inject.Named;
 
 @Module
 abstract class ConnectionModuleBinder {
