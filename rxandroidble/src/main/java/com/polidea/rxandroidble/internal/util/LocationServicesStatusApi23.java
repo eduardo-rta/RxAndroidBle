@@ -4,8 +4,8 @@ import android.os.Build;
 
 import com.polidea.rxandroidble.ClientComponent;
 
-import bleshadow.javax.inject.Inject;
-import bleshadow.javax.inject.Named;
+import javax.inject.Inject;
+import javax.inject.Named;
 
 public class LocationServicesStatusApi23 implements LocationServicesStatus {
 

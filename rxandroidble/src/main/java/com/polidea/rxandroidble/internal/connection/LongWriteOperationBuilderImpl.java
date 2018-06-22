@@ -9,7 +9,7 @@ import com.polidea.rxandroidble.internal.operations.OperationsProvider;
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue;
 import java.util.UUID;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 import rx.Observable;
 import rx.functions.Func1;

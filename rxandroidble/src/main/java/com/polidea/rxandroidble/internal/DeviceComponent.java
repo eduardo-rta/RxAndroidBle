@@ -2,7 +2,7 @@ package com.polidea.rxandroidble.internal;
 
 import com.polidea.rxandroidble.RxBleDevice;
 
-import bleshadow.dagger.Subcomponent;
+import dagger.Subcomponent;
 
 @DeviceScope
 @Subcomponent(modules = {DeviceModule.class, DeviceModuleBinder.class})

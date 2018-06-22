@@ -14,7 +14,7 @@ import com.polidea.rxandroidble.internal.connection.Connector;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 import rx.Observable;
 import rx.functions.Action0;

@@ -3,11 +3,11 @@ apply plugin: 'groovyx.android'
 apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 1
         versionName VERSION_NAME
     }
@@ -50,13 +50,15 @@ dependencies {
     api rootProject.ext.libs.rxjava
     api rootProject.ext.libs.support_annotations
     implementation rootProject.ext.libs.rxrelay
-    implementation project(path: ':dagger-library-shadow', transitive: false, configuration: 'shadow')
-    annotationProcessor project(path: ':dagger-compiler-shadow', transitive: false, configuration: 'shadow')
+
+    implementation rootProject.ext.libs.dagger
+    annotationProcessor rootProject.ext.libs.dagger_compiler
 
     // Test dependencies
-    testCompileOnly rootProject.ext.libs.junit
-    testCompileOnly rootProject.ext.libs.groovy
-    testCompileOnly rootProject.ext.libs.spock
-    testCompileOnly rootProject.ext.libs.robospock
-    testCompileOnly rootProject.ext.libs.support
+    testImplementation rootProject.ext.libs.dagger
+    testImplementation rootProject.ext.libs.junit
+    testImplementation rootProject.ext.libs.groovy
+    testImplementation rootProject.ext.libs.spock
+    testImplementation rootProject.ext.libs.robospock
+    testImplementation rootProject.ext.libs.support
 }

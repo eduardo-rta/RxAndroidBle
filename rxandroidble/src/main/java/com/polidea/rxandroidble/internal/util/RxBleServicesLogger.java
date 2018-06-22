@@ -9,7 +9,7 @@ import com.polidea.rxandroidble.RxBleDeviceServices;
 import com.polidea.rxandroidble.internal.RxBleLog;
 import com.polidea.rxandroidble.utils.StandardUUIDsParser;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 /**
  * --------------- ====== Printing peripheral content ====== ---------------

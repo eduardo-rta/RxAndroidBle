@@ -3,7 +3,7 @@ package com.polidea.rxandroidble
 import com.polidea.rxandroidble.internal.operations.Operation
 import com.polidea.rxandroidble.internal.scan.ScanPreconditionsVerifier
 import com.polidea.rxandroidble.internal.util.ClientStateObservable
-import bleshadow.dagger.Lazy
+import dagger.Lazy
 import com.polidea.rxandroidble.internal.scan.RxBleInternalScanResult
 import com.polidea.rxandroidble.internal.scan.InternalToExternalScanResultConverter
 import com.polidea.rxandroidble.internal.scan.ScanSetup

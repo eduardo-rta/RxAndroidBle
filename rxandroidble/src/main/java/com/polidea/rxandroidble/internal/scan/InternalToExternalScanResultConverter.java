@@ -4,7 +4,7 @@ package com.polidea.rxandroidble.internal.scan;
 import android.support.annotation.RestrictTo;
 import com.polidea.rxandroidble.internal.RxBleDeviceProvider;
 import com.polidea.rxandroidble.scan.ScanResult;
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 import rx.functions.Func1;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

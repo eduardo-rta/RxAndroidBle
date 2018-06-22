@@ -27,7 +27,7 @@ import com.polidea.rxandroidble.internal.util.QueueReleasingEmitterWrapper;
 import java.nio.ByteBuffer;
 import java.util.UUID;
 
-import bleshadow.javax.inject.Named;
+import javax.inject.Named;
 import rx.Emitter;
 import rx.Observable;
 import rx.Scheduler;

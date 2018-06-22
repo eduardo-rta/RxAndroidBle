@@ -13,7 +13,7 @@ import rx.Observable;
 import rx.functions.Action1;
 import rx.functions.Cancellable;
 import rx.internal.operators.OnSubscribeCreate;
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 @TargetApi(Build.VERSION_CODES.KITKAT)
 public class LocationServicesOkObservableApi23 extends Observable<Boolean> {

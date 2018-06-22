@@ -11,7 +11,7 @@ import com.polidea.rxandroidble.internal.connection.RxBleGattCallback;
 
 import java.util.concurrent.TimeUnit;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 import rx.Observable;
 import rx.Scheduler;

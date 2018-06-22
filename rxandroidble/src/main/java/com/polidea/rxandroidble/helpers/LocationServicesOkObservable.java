@@ -4,13 +4,13 @@ package com.polidea.rxandroidble.helpers;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import bleshadow.javax.inject.Named;
+import javax.inject.Named;
 import com.polidea.rxandroidble.ClientComponent;
 import com.polidea.rxandroidble.DaggerClientComponent;
 
 import java.util.UUID;
 
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 
 import rx.Emitter;
 import rx.Observable;

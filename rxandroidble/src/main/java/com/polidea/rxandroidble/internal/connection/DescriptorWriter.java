@@ -4,7 +4,7 @@ package com.polidea.rxandroidble.internal.connection;
 import android.bluetooth.BluetoothGattDescriptor;
 import com.polidea.rxandroidble.internal.operations.OperationsProvider;
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue;
-import bleshadow.javax.inject.Inject;
+import javax.inject.Inject;
 import rx.Observable;
 
 @ConnectionScope
